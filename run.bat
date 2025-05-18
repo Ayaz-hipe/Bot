@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd %CD%
-set BOT_TOKEN=8175265574:AAGrmnUmCzBYdshTd44r99ShDzR5EzdBqOE
+set BOT_TOKEN=Bot(os.getenv("Token"))
 
 echo ✅ Запуск Telegram-бота...
 python main.py
